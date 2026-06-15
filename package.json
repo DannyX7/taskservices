@@ -1,0 +1,16 @@
+{
+  "name": "taskservice",
+  "version": "1.0.0",
+  "description": "Node.js service for MongoDB logs and Vector Search guidance",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.24.0"
+  }
+}
